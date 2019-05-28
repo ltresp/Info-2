@@ -1,0 +1,8 @@
+l = i;		Zulässig
+i = l + 90;	Nicht Zulässig: i = (int)l + 90;
+d = f; 		Zulässig
+f = s;		Zulässig
+by = d;		Nicht Zulässig: by = (byte)d;
+a = i;		Nicht Zulässig: a = (char)i;
+i = d;		Nicht Zulässig: i = (int)d;
+f = i;		Zulässig
